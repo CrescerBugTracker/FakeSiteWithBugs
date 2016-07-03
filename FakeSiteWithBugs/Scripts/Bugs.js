@@ -4,13 +4,7 @@
         throw new ReferenceError();
 
     } catch (e) {
-        CWITracker.track({
-            Trace: e,
-            Status: CWITracker.ERROR,
-            Tags: ["Teste"]
-        }, function a(error, success) {
-            console.log(error || success)
-        });
+        CWITracker.track(e);
     }
 }
 function bug2() {
