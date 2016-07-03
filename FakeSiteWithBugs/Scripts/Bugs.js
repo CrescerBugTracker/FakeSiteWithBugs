@@ -4,7 +4,7 @@
         throw new ReferenceError();
 
     } catch (e) {
-        CwiTracker.track(e);
+        CWITracker.track(e);
     }
 }
 function bug2() {
@@ -13,7 +13,7 @@ function bug2() {
         kaleur(dda);
 
     } catch (e) {
-        CwiTracker.track(e);
+        CWITracker.track(e);
     }
 }
 function bug3() {
@@ -22,6 +22,6 @@ function bug3() {
         throw new URIError();
 
     } catch (e) {
-        CwiTracker.track(e);
+        CWITracker.track(e);
     }
 }
