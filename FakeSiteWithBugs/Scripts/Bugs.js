@@ -5,7 +5,7 @@
 
     } catch (e) {
         CWITracker.track({
-            Trace: e,
+            Trace: "asdsadsa",
             Status: CWITracker.ERROR,
             Tags: ["critical"]
         }, function a(error, success) {
@@ -20,7 +20,7 @@ function bug2() {
 
     } catch (e) {
         CWITracker.track({
-            Trace: e,
+            Trace: "asdasdsadasdasa",
             Status: CWITracker.WARNING,
             Tags: ["Teste"]
         }, function a(error, success) {
@@ -35,7 +35,7 @@ function bug3() {
 
     } catch (e) {
         CWITracker.track({
-            Trace: e,
+            Trace: "ggfgfsss",
             Status: CWITracker.INFO,
             Tags: ["Teste"]
         }, function a(error, success) {

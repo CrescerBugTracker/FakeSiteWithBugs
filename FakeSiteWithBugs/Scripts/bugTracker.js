@@ -1,7 +1,7 @@
 'use strict';
 
 function CwiTracker() {
-    this.hashCode = '4199d714-ede9-4bfa-b03f-4f23b28d2fc8815';
+    this.hashCode = 'dd5924f6-6f52-4adf-a5de-e04ecd067ec6226';
     this.urlPost = 'http://bugtracker-5.apphb.com/BugTracker/Add';
     this.ERROR = 1;
     this.INFO = 2;
