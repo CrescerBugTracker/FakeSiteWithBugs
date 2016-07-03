@@ -3,17 +3,6 @@ This repository
 Search
 Pull requests
 Issues
-Gist
- @gustavomelloti
- Unwatch 4
-  Star 0
-  Fork 0 CrescerBugTracker/FakeSiteWithBugs
- Code  Issues 0  Pull requests 0  Wiki  Pulse  Graphs
-Tree: 47cbc90a29 Find file Copy pathFakeSiteWithBugs/FakeSiteWithBugs/FakeSiteWithBugs.csproj
-47cbc90  14 hours ago
-@ViniciusAudibert ViniciusAudibert fix(project): organizar csproject.
-1 contributor
-RawBlameHistory     335 lines (331 sloc)  19.3 KB
 <?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <Import Project="..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props" Condition="Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" />
