@@ -7,7 +7,7 @@
         CWITracker.track({
             Trace: e,
             Status: CWITracker.ERROR,
-            Tags: ["Teste"]
+            Tags: ["critical"]
         }, function a(error, success) {
             console.log(error || success)
         });
@@ -19,7 +19,13 @@ function bug2() {
         kaleur(dda);
 
     } catch (e) {
-        CWITracker.track(e);
+        CWITracker.track({
+            Trace: e,
+            Status: CWITracker.WARNING,
+            Tags: ["Teste"]
+        }, function a(error, success) {
+            console.log(error || success)
+        });
     }
 }
 function bug3() {
@@ -28,6 +34,12 @@ function bug3() {
         throw new URIError();
 
     } catch (e) {
-        CWITracker.track(e);
+        CWITracker.track({
+            Trace: e,
+            Status: CWITracker.INFO,
+            Tags: ["Teste"]
+        }, function a(error, success) {
+            console.log(error || success)
+        });
     }
 }
