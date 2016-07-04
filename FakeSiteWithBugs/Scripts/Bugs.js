@@ -5,10 +5,10 @@
 
     } catch (e) {
         CWITracker.track({
-            Trace: "asdsadsa",
+            Trace: "Banco de dados caiu. [error]",
             Status: CWITracker.ERROR,
-            Tags: ["critical"]
-        }, function a(error, success) {
+            Tags: ["critical", "danger"]
+        }, function callback(error, success) {
             console.log(error || success)
         });
     }
@@ -20,10 +20,10 @@ function bug2() {
 
     } catch (e) {
         CWITracker.track({
-            Trace: "asdasdsadasdasa",
+            Trace: "Teste [warning]",
             Status: CWITracker.WARNING,
             Tags: ["Teste"]
-        }, function a(error, success) {
+        }, function callback(error, success) {
             console.log(error || success)
         });
     }
@@ -35,10 +35,10 @@ function bug3() {
 
     } catch (e) {
         CWITracker.track({
-            Trace: "ggfgfsss",
+            Trace: "Você teve 1000 mil acessos [info]",
             Status: CWITracker.INFO,
             Tags: ["Teste"]
-        }, function a(error, success) {
+        }, function callback(error, success) {
             console.log(error || success)
         });
     }
